@@ -52,7 +52,6 @@ features = [
   "navigation.tracking",
   "search.highlight",
   "toc.follow",
-  # "toc.integrate",
 ]
 
 # logo = "assets/logo.png"
@@ -82,6 +81,9 @@ media = "(prefers-color-scheme: dark)"
 scheme = "slate"
 toggle.icon = "lucide/moon"
 toggle.name = "Switch to system preference"
+
+[project.extra]
+generator = false
 
 # [[project.extra.social]]
 # icon = "fontawesome/brands/github"
