@@ -1,5 +1,5 @@
 ---
-icon: simple/markdown
+icon: lucide/list
 status: deprecated
 ---
 # Markdown in 5min
