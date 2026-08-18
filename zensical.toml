@@ -78,6 +78,10 @@ generator = false
 icon = "fontawesome/brands/mastodon"
 link = "https://fosstodon.org/@user"
 
+[project.extra.status]
+new = "Recently added"
+deprecated = "Deprecated"
+
 [project.markdown_extensions]
 abbr = {}
 admonition = {}
