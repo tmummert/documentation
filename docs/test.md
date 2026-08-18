@@ -1,5 +1,6 @@
 ---
 icon: lucide/cat
+status: new
 ---
 # Test
 

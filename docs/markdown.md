@@ -1,7 +1,7 @@
 ---
 icon: simple/markdown
+status: deprecated
 ---
-
 # Markdown in 5min
 
 ## Headers

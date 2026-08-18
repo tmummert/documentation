@@ -1,7 +1,6 @@
 ---
 icon: lucide/rocket
 ---
-
 # Get started
 
 ## Examples
