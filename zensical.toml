@@ -4,20 +4,27 @@ site_name = "Documentation"
 site_description = "A test site for Zensical"
 site_author = "Tobias Mummert"
 
-copyright = "Copyright &copy; 2026 Tobias Mummert"
+# copyright = "Copyright &copy; 2026 Tobias Mummert"
 
-repo_url = "https://github.com/tmummert/documentation"
-repo_name = "tmummert/documentation"
+# repo_url = "https://github.com/tmummert/documentation"
+# repo_name = "tmummert/documentation"
 
 nav = [
-  { "Home" = "index.md" },
+  "index.md",
   { "About" = [
     "about/page_1.md",
     "about/page_2.md",
     "about/page_3.md",
   ] },
-  { "Markdown in 5min" = "markdown.md" },
-  { "Testsite" = "test.md" },
+  { "Animals" = [
+    "animals/cat.md",
+    "animals/dog.md",
+    "animals/bird.md",
+  ] },
+  { "Version" = [
+    "version/new.md",
+    "version/old.md",
+  ] },
 ]
 
 # logo = "images/logo.png"
@@ -43,6 +50,7 @@ features = [
   "navigation.path",
   # "navigation.prune",
   # "navigation.sections",
+  # "navigation.tabs",
   "navigation.top",
   "navigation.tracking",
   "search.highlight",
@@ -74,9 +82,9 @@ accent = "teal"
 [project.extra]
 generator = false
 
-[[project.extra.social]]
-icon = "fontawesome/brands/mastodon"
-link = "https://fosstodon.org/@user"
+# [[project.extra.social]]
+# icon = "fontawesome/brands/mastodon"
+# link = "https://fosstodon.org/@user"
 
 [project.extra.status]
 new = "Recently added"

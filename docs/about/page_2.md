@@ -1,4 +1,5 @@
 ---
+title: Page 2
 icon: lucide/tally-2
 ---
-# Page 2
+# Chapter 2

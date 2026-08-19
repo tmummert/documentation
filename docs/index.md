@@ -1,4 +1,5 @@
 ---
+title: Documentation
 icon: lucide/rocket
 ---
 # Get started

@@ -1,4 +1,5 @@
 ---
+title: Page 3
 icon: lucide/tally-3
 ---
-# Page 3
+# Chapter 3
