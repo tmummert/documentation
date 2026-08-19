@@ -1,5 +1,9 @@
 ---
 title: Dogs
 icon: lucide/dog
+tags:
+  - Animals
 ---
-# Hund
+# Dogs
+
+## Bello

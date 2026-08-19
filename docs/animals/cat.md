@@ -1,9 +1,13 @@
 ---
 title: Cats
 icon: lucide/cat
+tags:
+  - Animals
 ---
-# Muta
+# Cats
 
-# Hugo
+## Muta
 
-# Frida
+## Hugo
+
+## Frida

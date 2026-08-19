@@ -1,6 +1,10 @@
 ---
 title: Birds
 icon: lucide/bird
+tags:
+  - Animals
 ---
-# Vogel
+# Birds
+
+## Hansi
 

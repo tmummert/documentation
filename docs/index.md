@@ -18,6 +18,16 @@ icon: lucide/rocket
 
     This is a **warning** admonition. Be careful!
 
+### Inline blocks¶
+
+!!! info inline end "Lorem ipsum"
+
+    Lorem ipsum dolor sit amet, consectetur
+    adipiscing elit. Nulla et euismod nulla.
+    Curabitur feugiat, tortor non consequat
+    finibus, justo purus auctor massa, nec
+    semper lorem quam in massa.
+
 ### Details
 
 > Go to [documentation](https://zensical.org/docs/authoring/admonitions/#collapsible-blocks)
@@ -36,6 +46,24 @@ def greet(name):
     print(f"Hello, {name}!") # (1)!
 
 greet("Python")
+```
+
+``` rust hl_lines="2-8" title="fibonacci.rs"
+pub fn fib (n: i32) -> i32 {
+    if n <= 0 {
+        return 0;
+    } else if n == 1{
+        return 1;
+    } else {
+        return fib (n-1) + fib (n-2);
+    }
+}
+
+pub fn fibonacci() {
+    for int in 0..15 {
+        println! ( "fibonacci ({}) => {}", int, fib(int));
+    }
+}
 ```
 
 1.  > Go to [documentation](https://zensical.org/docs/authoring/code-blocks/#code-annotations)
@@ -59,6 +87,23 @@ Code can also be highlighted inline: `#!python print("Hello, Python!")`.
     ``` rs
     println!("Hello from Rust!");
     ```
+!!! example
+
+    === "Unordered List"
+
+        ``` markdown
+        * Sed sagittis eleifend rutrum
+        * Donec vitae suscipit est
+        * Nulla tempor lobortis orci
+        ```
+
+    === "Ordered List"
+
+        ``` markdown
+        1. Sed sagittis eleifend rutrum
+        2. Donec vitae suscipit est
+        3. Nulla tempor lobortis orci
+        ```
 
 ## Diagrams
 
@@ -71,6 +116,15 @@ graph LR
   C --> D[Debug];
   D --> B;
   B ---->|No| E[Yay!];
+```
+
+``` mermaid
+sankey
+
+%% source,target,value
+Electricity grid,Over generation / exports,104.453
+Electricity grid,Heating and cooling - homes,113.726
+Electricity grid,H2 conversion,27.14
 ```
 
 ## Footnotes
