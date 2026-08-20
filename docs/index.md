@@ -48,18 +48,18 @@ def greet(name):
 greet("Python")
 ```
 
-``` rust hl_lines="2-8" title="fibonacci.rs"
-pub fn fib (n: i32) -> i32 {
+``` rust linenums="1" hl_lines="2-8" title="fibonacci.rs"
+fn fib (n: i32) -> i32 {
     if n <= 0 {
         return 0;
-    } else if n == 1{
+    } else if n == 1 {
         return 1;
     } else {
         return fib (n-1) + fib (n-2);
     }
 }
 
-pub fn fibonacci() {
+fn main() {
     for int in 0..15 {
         println! ( "fibonacci ({}) => {}", int, fib(int));
     }
